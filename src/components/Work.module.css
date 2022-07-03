@@ -1,0 +1,62 @@
+.content2{
+    width: 99vw;
+    height: 100vh;
+    position: relative;
+}
+.contenedor {
+    padding-top: 35px;
+    margin-bottom: 50px;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 15px;
+
+}
+/* .contentWorks {
+    width: 30%;
+} */
+.modal {
+    background-color: red;
+}
+.description {
+   align-self: flex-start;
+   width: 40px;
+   margin-left: 10px;
+}
+.video {
+    width: 500px;
+    height: 500px;
+}
+.title {
+    color: #fee440;
+    width: 100%;
+}
+.cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.lottie {
+    width: 100%;
+}
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.github ,.deploy {
+    width: 32px;
+    height: 44px;
+    cursor: pointer;
+
+}
+.github {
+    margin-right: 36px;
+}

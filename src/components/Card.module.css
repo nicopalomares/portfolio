@@ -1,0 +1,23 @@
+.contein {
+    width: 430px;
+    height: 215px;
+}
+.img {
+    /* object-fit: contain; */
+    width: 100%; 
+    height: 100%; 
+    /* object-position: top; */
+    border-radius: 15px;
+    object-fit: fill;
+} 
+.contentIcons{
+    gap: 10px;
+}
+.github ,.deploy {
+    width: 32px;
+    height: 40px;
+
+}
+.github {
+    margin-right: 36px;
+}
