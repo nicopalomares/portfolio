@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { ModalMio } from "./ModalMio";
 import { Link } from "react-scroll";
-import video from "./assets/videos/apiFood.mp4";
+// import video from "./assets/videos/apiFood.mp4";
 // Modal.setAppElement('#yourAppElement');
 import { BsGithub } from "react-icons/bs";
 import { BsLaptop } from "react-icons/bs";
@@ -83,10 +83,10 @@ export default function Work() {
             <h2>{selectedWork.name}</h2>
             <h4 className={style.description}>Description</h4>
             <p>{selectedWork.description}</p>
-            <div>
-              <video loop autoPlay className={style.video}>
+             <div>
+              {/* <video loop autoPlay className={style.video}>
                 <source src={video} type="video/mp4"></source>
-              </video>
+              </video>  */}
             </div>
             <div>
               <BsGithub href={selectedWork.linkH} className={style.github}/>

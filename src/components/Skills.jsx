@@ -51,123 +51,16 @@ export const Skills = () => {
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
-                {/* <div className={style.item}>
-                  <CircularProgressbar
-                    className={style.item}
-                    value={87}
-                    text="89%"
-                    strokeWidth={15}
-                    
-                    styles={buildStyles({
-                      pathColor: '#8338ec',
-                      textColor: '#FFF',                          
-                    })} 
-                  />
-                  <FaReact className={style.logosre}/>
+                <div className={style.skill}>
+                  <div className={style.outer}>
+                    <div className={style.inner}>
+                      <div className={style.number}>
+                        65%
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div >
-                  <CircularProgressbar
-                    className={style.item}
-                    value={87}
-                    text="89%"
-                    strokeWidth={15}
-                    
-                    styles={buildStyles({
-                      pathColor: '#8338ec',
-                      textColor: '#FFF',                          
-                    })} 
-                  />
-                  <SiJavascript   className={ style.logosjs}/>
-                </div>
-                <div className={style.item}>
-                  <CircularProgressbar
-                    className={style.item}
-                    value={87}
-                    text="89%"
-                    strokeWidth={15}
-                    
-                    styles={buildStyles({
-                      pathColor: '#8338ec',
-                      textColor: '#FFF',                          
-                    })} 
-                  />
-                  <h2>redi</h2>
-                </div>
-                <div className={style.item}>
-                  <CircularProgressbar
-                    className={style.item}
-                    value={87}
-                    text="89%"
-                    strokeWidth={15}
-                    
-                    styles={buildStyles({
-                      pathColor: '#8338ec',
-                      textColor: '#FFF',                          
-                    })} 
-                  />
-                  <h2>redi</h2>
-                </div>
-                <div className={style.item}>
-                  <CircularProgressbar
-                    className={style.item}
-                    value={87}
-                    text="89%"
-                    strokeWidth={15}
-                    styles={buildStyles({
-                      pathColor: '#8338ec',
-                      textColor: '#FFF',                          
-                    })} 
-                  />
-                  <h2>redi</h2>
-                </div> */}
-                <div style={{ width: 200, height: 200 }}>
-                  <CircularProgressbar
-                    value={66}
-                    text="89%"
-                    strokeWidth={15}
-                    styles={buildStyles({
-                      pathColor: "yellow",
-                      textColor: "#FFF",
-                    })}
-                  />
-                  <SiJavascript color="#000" />
-                </div>
-                <div style={{ width: 200, height: 200 }} className="item">
-                  <CircularProgressbar
-                    value={66}
-                    text="89%"
-                    strokeWidth={15}
-                    styles={buildStyles({
-                      pathColor: "#8338ec",
-                      textColor: "#FFF",
-                    })}
-                  />
-                  <FaReact color="#8338ec" />
-                </div>
-                <div style={{ width: 200, height: 200 }}>
-                  <CircularProgressbar
-                    value={66}
-                    text="89%"
-                    strokeWidth={15}
-                    styles={buildStyles({
-                      pathColor: "#8338ec",
-                      textColor: "#FFF",
-                    })}
-                  />
-                  <FaReact color="#8338ec" />
-                </div>
-                <div style={{ width: 200, height: 200 }}>
-                  <CircularProgressbar
-                    value={66}
-                    text="89%"
-                    strokeWidth={15}
-                    styles={buildStyles({
-                      pathColor: "#8338ec",
-                      textColor: "#FFF",
-                    })}
-                  />
-                  <FaReact color="#8338ec" />
-                </div>
+                
               </Carousel>
             </div>
           </div>
