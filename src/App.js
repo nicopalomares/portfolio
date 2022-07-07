@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Otro } from "./components/Otro";
 import { Skills } from "./components/Skills";
+import { Skillings } from "./components/Skillings";
 
 function App() {
   const [width, setWidth] = useState(0);
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
         {width>775 ? <Header/> : <HeaderMobile/>}
         <Content />
-        <Skills/>
+        <Skillings/>
         <Work/>
         
         {/* <Otro/> */}
